@@ -1,5 +1,3 @@
-# personalHealthCareChatBot
-
 # Healthcare AI Chatbot
 
 Welcome to the Healthcare AI Chatbot project! This chatbot is designed to revolutionize healthcare accessibility and support by providing users with convenient access to healthcare information and services.
