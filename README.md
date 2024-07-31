@@ -9,11 +9,11 @@ Welcome to the Healthcare AI Chatbot project! This chatbot is designed to revolu
 - **Health Updates**: Provide health updates and receive relevant information and guidance.
 - **Sick Predictor**: Predict potential sickness based on symptoms and health data.
 
-Usage
+Usage:
 Once the chatbot is running, you can interact with it by typing your requests or selecting options from the provided menu. The chatbot will respond with relevant information or prompts based on your input.
 
-Contributing
+Contributing:
 Contributions to the Healthcare AI Chatbot project are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
 
-License
+License:
 This project is licensed under the MIT License - see the LICENSE file for details.
