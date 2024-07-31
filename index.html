@@ -3,49 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dialogflow Chatbot</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
-            color: white;
-            text-align: center;
-        }
-        .content {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .chatbot-container {
-            width: 350px;
-            height: 430px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
-            overflow: hidden;
-            background-color: white;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
+    <title>HealthCareAI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <div class="content">
-        <h1>HealthCare Chatbot</h1>
-        <p1>Welcome to the HealthCare chatbot! Feel free to ask any questions you may have. Begin by typing "Hi"
-        </p1>
-        
-        
-    </div>
-    <div class="chatbot-container">
-        <iframe allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/34191a89-78cd-48ec-875c-ae331b18d99a"></iframe>
-    </div>
+    <header>
+        <nav>
+            <div class="logo">HealthCareAI</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#chatbot">Chatbot</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="home">
+        <div class="content">
+            <h1>Welcome to HealthCareAI Chatbot</h1>
+            <p>Feel free to ask any questions you may have. Begin by typing "Hi".</p>
+            <a href="#chatbot" class="btn">Start Chatting</a>
+        </div>
+    </section>
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <div class="feature-container">
+            <div class="feature">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Appointment Scheduling</h3>
+                <p>Easily schedule appointments with healthcare providers.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-heart"></i>
+                <h3>Emotional Well-being Support</h3>
+                <p>Discuss your emotional well-being and get personalized support.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-info-circle"></i>
+                <h3>Health Updates</h3>
+                <p>Provide health updates and receive relevant information and guidance.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-stethoscope"></i>
+                <h3>Sick Predictor</h3>
+                <p>Predict potential sickness based on symptoms and health data.</p>
+            </div>
+        </div>
+    </section>
+    <section id="chatbot" class="chatbot-section">
+        <h2>Chat with Our Bot</h2>
+        <div class="chatbot-container">
+            <iframe allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/34191a89-78cd-48ec-875c-ae331b18d99a"></iframe>
+        </div>
+    </section>
+
+    <!----
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send</button>
+        </form> -------->
+    </section>
+    <footer>
+        <p>&copy; By Mohamed Asad Bandarkar. 2024 HealthCare Chatbot. All rights reserved.</p>
+    </footer>
 </body>
 </html>
